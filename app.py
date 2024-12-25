@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 from src.pipeline.predict_pipeline import CustomData, PredictPipeline
+import dill
+
 
 # Title for the web application
 st.title('Student Performance Prediction App')
